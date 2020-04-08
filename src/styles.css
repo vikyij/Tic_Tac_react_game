@@ -1,0 +1,50 @@
+*{ 
+  margin:0px; 
+  padding:0px; 
+  border-radius: 0px; 
+  box-sizing: border-box; 
+  font-size: 110%; 
+} 
+
+#root{ 
+  text-align:center; 
+} 
+
+.square{ 
+  font-size:30px; 
+  width: 30%;
+  height: 80px; 
+  padding: 25px; 
+  margin: 0px; 
+  border: 1px solid black; 
+  color: #4CAF50; 
+} 
+
+.board{ 
+  margin:-7px; 
+  padding:0px; 
+  border-radius: 0px; 
+  box-sizing: border-box; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+} 
+
+input[type="button"]{ 
+  background: #4CAF50; 
+  color: black; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  margin: 0px;
+} 
+  
+input[type="button"]:active{ 
+    background: #ccc; 
+} 
+
+.tictac {
+  margin: 10px;
+}
